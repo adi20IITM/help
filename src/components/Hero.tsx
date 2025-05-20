@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Lotus } from "lucide-react";
+import { Flower2 } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -51,11 +51,11 @@ const Hero = () => {
         <div className="max-w-3xl mx-auto text-center">
           {/* Namaste Sign/Symbol */}
           <div className="mb-6 flex flex-col items-center justify-center">
-            {/* Hands in namaste position */}
+            {/* Custom Lotus flower using Flower2 icon */}
             <div className="relative mb-2">
               <div className="h-24 w-24 bg-gradient-radial from-bitcoin-gold/40 to-transparent rounded-full absolute -inset-2 blur-md"></div>
               <div className="relative flex items-center justify-center">
-                <Lotus className="h-20 w-20 text-bitcoin-gold animate-pulse-slow" strokeWidth={1.25} />
+                <Flower2 className="h-20 w-20 text-bitcoin-gold animate-pulse-slow" strokeWidth={1.25} />
               </div>
             </div>
             <div className="text-lg font-medium text-bitcoin-gold">
