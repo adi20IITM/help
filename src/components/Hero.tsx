@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Flower2 } from "lucide-react";
@@ -61,20 +60,6 @@ const Hero = () => {
             <div className="text-lg font-medium text-bitcoin-gold">
               नमस्ते
             </div>
-          </div>
-          
-          <div className="mb-8">
-            <span className="inline-block animate-float mb-2">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-radial from-bitcoin-gold/30 to-transparent blur-md"></div>
-                <svg className="h-24 w-24 relative animate-pulse-slow" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#FFD700" strokeWidth="1.5" />
-                  <path d="M15 8.5C14.315 7.81501 13.1087 7.33855 12 7.30872M9 11.5C9.67965 12.1797 10.8858 12.6614 12 12.6913M12 7.30872C10.8366 7.27729 9.7 7.7 9 8.5C8.5 9 8.289 10.55 9 11.5M12 7.30872V5.5M12 12.6913C13.1642 12.7227 14.3 12.3 15 11.5C15.5 11 15.711 9.45 15 8.5M12 12.6913V14.5" stroke="#FFD700" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M12 14.5V17.5" stroke="#FFD700" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M10 16.5H14" stroke="#FFD700" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
-            </span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in tracking-tight">
