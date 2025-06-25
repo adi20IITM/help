@@ -14,15 +14,15 @@ const About = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Where Blockchain Meets Mindfulness</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Where Bitcoin Meets Mindfulness</h3>
             <p className="text-gray-600 mb-6">
-              Namaste Bitcoin is not just another cryptocurrency conference. It's a unique gathering that combines the innovative spirit of blockchain technology with the mindful wisdom of Eastern philosophy.
+              Namaste Bitcoin is not just another bitcoin conference. It's a unique gathering that combines the innovative spirit of the bitcoin technology with mindful wisdom.
             </p>
             <p className="text-gray-600 mb-6">
-              Over three transformative days, we'll explore the future of Bitcoin and blockchain through keynotes, panels, workshops, and networking events designed to enlighten both your technical knowledge and personal growth.
+              Over two transformative days, we'll explore the future of Bitcoin through keynotes, panels, workshops, and networking events designed to enlighten both your technical knowledge and personal growth.
             </p>
             <p className="text-gray-600">
-              Whether you're a blockchain developer, investor, entrepreneur, or simply curious about the intersection of technology and mindfulness, Namaste Bitcoin offers a fresh perspective on the crypto revolution.
+              Whether you're a bitcoin developer, investor, entrepreneur, or simply curious about the intersection of technology and mindfulness, Namaste Bitcoin offers a fresh perspective on the financial revolution.
             </p>
           </div>
           
@@ -32,7 +32,7 @@ const About = () => {
                 <div className="h-12 w-12 rounded-full flex items-center justify-center bg-bitcoin-gold/10 mb-4">
                   <Calendar className="h-6 w-6 text-bitcoin-gold" />
                 </div>
-                <h4 className="text-lg font-medium mb-2">3 Full Days</h4>
+                <h4 className="text-lg font-medium mb-2">2 Full Days</h4>
                 <p className="text-gray-500">Of immersive content, workshops, and networking</p>
               </CardContent>
             </Card>
@@ -42,7 +42,7 @@ const About = () => {
                 <div className="h-12 w-12 rounded-full flex items-center justify-center bg-bitcoin-orange/10 mb-4">
                   <Users className="h-6 w-6 text-bitcoin-orange" />
                 </div>
-                <h4 className="text-lg font-medium mb-2">50+ Speakers</h4>
+                <h4 className="text-lg font-medium mb-2">20+ Speakers</h4>
                 <p className="text-gray-500">Industry leaders and visionaries from around the world</p>
               </CardContent>
             </Card>

@@ -18,7 +18,7 @@ const Hero = () => {
           </svg>
         </div>
         {/* Floating Bitcoin symbols */}
-        <div className="absolute inset-0 overflow-hidden">
+        {/* <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-[10%] left-[5%] animate-float opacity-20">
             <svg className="h-16 w-16" viewBox="0 0 24 24" fill="none">
               <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#FFD700" strokeWidth="1.5" />
@@ -43,7 +43,7 @@ const Hero = () => {
               <path d="M10 16.5H14" stroke="#FFD700" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="container mx-auto px-4 py-32 md:py-40 relative z-10">
@@ -54,7 +54,7 @@ const Hero = () => {
             <div className="relative mb-2">
               <div className="h-24 w-24 bg-gradient-radial from-bitcoin-gold/40 to-transparent rounded-full absolute -inset-2 blur-md"></div>
               <div className="relative flex items-center justify-center">
-                <Flower2 className="h-20 w-20 text-bitcoin-gold animate-pulse-slow" strokeWidth={1.25} />
+                <img src="./namaste.png" className="h-20 w-20 text-bitcoin-gold animate-pulse-slow" />
               </div>
             </div>
             <div className="text-lg font-medium text-bitcoin-gold">
@@ -67,20 +67,20 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-4 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Where Eastern Wisdom Meets Western Technology
+             Where Indian Wisdom Meets The Global Technology
           </p>
           
           <div className="inline-block rounded-full bg-white/10 backdrop-blur-sm px-6 py-2 mb-8 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            <p className="text-lg font-medium text-white">October 15-17, 2025 • Bangalore, India</p>
+            <p className="text-lg font-medium text-white">Jan 8-9, 2026 • Bangalore, India</p>
           </div>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button size="lg" className="bg-bitcoin-orange hover:bg-bitcoin-orange/90 text-white text-lg px-8 py-6 shadow-lg shadow-bitcoin-orange/20 hover:shadow-bitcoin-orange/30 transition-all">
               Register Now
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 backdrop-blur-sm transition-all">
+            {/* <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 backdrop-blur-sm transition-all">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

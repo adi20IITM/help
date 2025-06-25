@@ -15,10 +15,10 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-400 mb-6">
-              Where Eastern Wisdom Meets Western Technology
+              Where Indian Wisdom Meets The Global Technology
             </p>
             <p className="text-gray-400">
-              October 15-17, 2025<br />
+              Jan 8-9, 2026<br />
               Bangalore, India
             </p>
           </div>
@@ -63,17 +63,22 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <a href="mailto:info@namastebitcoin.com" className="hover:text-bitcoin-orange transition-colors">
-                  info@namastebitcoin.com
+                <a href="mailto:shambhavi@getbit.money" className="hover:text-bitcoin-orange transition-colors">
+                  shambhavi@getbit.money
                 </a>
               </li>
               <li>
-                <a href="tel:+918012345678" className="hover:text-bitcoin-orange transition-colors">
-                  +91 801 234 5678
+                <a href="mailto:pratik@getbit.money" className="hover:text-bitcoin-orange transition-colors">
+                  pratik@getbit.money
+                </a>
+              </li>
+              <li>
+                <a href="tel:+916307596909" className="hover:text-bitcoin-orange transition-colors">
+                  +91 6307596909
                 </a>
               </li>
             </ul>
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <h4 className="text-sm font-medium mb-3">Follow Us</h4>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-bitcoin-orange transition-colors">
@@ -97,7 +102,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           
           <div>
@@ -122,7 +127,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 mt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-          <p>© 2025 Namaste Bitcoin Conference. All rights reserved.</p>
+          <p>© 2026 Namaste Bitcoin Conference. All rights reserved.</p>
         </div>
       </div>
     </footer>

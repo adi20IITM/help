@@ -33,8 +33,8 @@ const Venue = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <Calendar className="h-8 w-8 text-bitcoin-gold mx-auto mb-2" />
-                    <p className="text-sm font-medium text-bitcoin-gold">Oct 15-17</p>
-                    <p className="text-xs text-bitcoin-gray">2025</p>
+                    <p className="text-sm font-medium text-bitcoin-gold">Oct 8-9</p>
+                    <p className="text-xs text-bitcoin-gray">2026</p>
                   </div>
                 </div>
               </div>

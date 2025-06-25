@@ -10,7 +10,7 @@ const Speakers = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Featured Speakers</h2>
           <div className="h-1 w-20 bg-bitcoin-orange mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We're assembling an incredible lineup of speakers from the cryptocurrency, blockchain technology, and mindful leadership communities.
+            We're assembling an incredible lineup of speakers from the global bitcoin ecosystem.
           </p>
         </div>
 
@@ -38,14 +38,12 @@ const Speakers = () => {
           <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Speaker Lineup Coming Soon</h3>
             <p className="text-gray-600 mb-6">
-              We're currently finalizing our speaker lineup with industry leaders, innovators, and thought leaders in the Bitcoin and blockchain space.
+              We're currently finalizing our speaker lineup with industry leaders, innovators, and thought leaders in the Bitcoin space.
             </p>
             <div className="flex flex-wrap justify-center gap-2 text-sm text-bitcoin-blue">
-              <span className="bg-bitcoin-blue/10 px-3 py-1 rounded-full">Blockchain Experts</span>
+              <span className="bg-bitcoin-blue/10 px-3 py-1 rounded-full">Finance Experts</span>
               <span className="bg-bitcoin-blue/10 px-3 py-1 rounded-full">Bitcoin Developers</span>
-              <span className="bg-bitcoin-blue/10 px-3 py-1 rounded-full">Crypto Economists</span>
-              <span className="bg-bitcoin-blue/10 px-3 py-1 rounded-full">DeFi Innovators</span>
-              <span className="bg-bitcoin-blue/10 px-3 py-1 rounded-full">Web3 Leaders</span>
+              <span className="bg-bitcoin-blue/10 px-3 py-1 rounded-full">Economists</span>
             </div>
             <p className="text-sm text-gray-500 mt-4">
               Full speaker announcement coming soon. Stay tuned!

@@ -10,169 +10,183 @@ const scheduleData = {
     {
       id: "1-1",
       time: "9:00 AM - 10:00 AM",
-      title: "Opening Ceremony & Keynote",
-      speaker: "Satoshi Nakamura",
-      description: "Welcome address and opening keynote on the future of Bitcoin adoption in emerging markets.",
+      title: "Check-in & Networking",
+      // speaker: "Satoshi Nakamura",
+      description: "Welcome Tea + Badge Pickup",
       location: "Main Stage",
-      type: "keynote",
+      type: "Networking",
     },
     {
       id: "1-2",
-      time: "10:30 AM - 11:30 AM",
-      title: "Bitcoin Mining & Sustainability",
-      speaker: "Michael Chen",
-      description: "Exploring sustainable approaches to Bitcoin mining and energy consumption.",
+      time: "10:00 AM - 10:30 AM",
+      title: "Opening Keynote",
+      // speaker: "Michael Chen",
+      description: "State of Bitcoin in Bharat",
       location: "Hall A",
-      type: "panel",
+      type: "Keynote",
     },
     {
       id: "1-3",
-      time: "11:45 AM - 12:45 PM",
-      title: "The Philosophy of Decentralization",
-      speaker: "Priya Sharma",
-      description: "Understanding the philosophical underpinnings of blockchain's decentralized nature.",
+      time: "10:30 AM - 11:30 PM",
+      title: "Big Picture Panel",
+      // speaker: "Priya Sharma",
+      description: "Macro Trends, Bitcoin, and India’s Future",
       location: "Hall B",
-      type: "talk",
+      type: "Panel",
     },
     {
       id: "1-4",
-      time: "2:00 PM - 3:00 PM",
-      title: "Lightning Network Workshop",
-      speaker: "Marcus Williams",
-      description: "Hands-on workshop on implementing Lightning Network solutions.",
-      location: "Workshop Room C",
-      type: "workshop",
+      time: "12:30 PM - 1:30 PM",
+      title: "Lunch Break",
+      // speaker: "Marcus Williams",
+      // description: "Hands-on workshop on implementing Lightning Network solutions.",
+      // location: "Workshop Room C",
+      type: "Food & Drinks",
     },
     {
       id: "1-5",
-      time: "3:30 PM - 5:00 PM",
-      title: "DeFi & Traditional Finance",
-      speaker: "Aanya Patel",
-      description: "Panel discussion on the integration of DeFi with traditional financial systems.",
+      time: "1:30 PM - 2:15 PM",
+      title: "Women in Bitcoin",
+      // speaker: "Aanya Patel",
+      description: "Empowering Financial Independence",
       location: "Main Stage",
-      type: "panel",
+      type: "Panel",
     },
     {
       id: "1-6",
-      time: "5:30 PM - 7:00 PM",
-      title: "Networking Reception",
+      time: "2:15 PM - 3:00 PM",
+      title: "Open Mic Lightning Talks",
       speaker: "",
-      description: "Connect with speakers, sponsors, and fellow attendees.",
+      description: "5 min Talks by Community",
       location: "Garden Terrace",
-      type: "social",
+      type: "Rapid Fire",
     },
+    {
+      id: "1-7",
+      time: "3:00 PM - 4:00 PM",
+      title: "Mining in India",
+      speaker: "",
+      description: "Solar, Hydro & Grid Mining",
+      location: "Garden Terrace",
+      type: "Deep Dive",
+    },
+    {
+      id: "1-8",
+      time: "4:00 PM - 5:00 PM",
+      title: "Bitcoiner Expo",
+      speaker: "",
+      description: "Explore Ecosystem Booths",
+      location: "Garden Terrace",
+      type: "Expo Walkthrough",
+    },
+    {
+      id: "1-9",
+      time: "5:00 PM - 6:00 PM",
+      title: "Closing Fireside",
+      speaker: "",
+      description: "Orange Pill Stories from Bharat",
+      location: "Garden Terrace",
+      type: "Fireside chat",
+    }
   ],
   day2: [
     {
       id: "2-1",
       time: "9:00 AM - 10:00 AM",
-      title: "Meditation & Mindfulness for Traders",
-      speaker: "Dr. Emma Wong",
-      description: "Start your day with mindfulness practices specifically designed for crypto traders.",
+      title: "Check-in & Morning Chai",
+      // speaker: "Dr. Emma Wong",
+      description: "Filter coffee & QR games",
       location: "Zen Room",
-      type: "workshop",
+      type: "Food & Drinks",
     },
     {
       id: "2-2",
-      time: "10:30 AM - 11:30 AM",
-      title: "Crypto UX Design Principles",
-      speaker: "Sophia Rodriguez",
-      description: "Creating intuitive user experiences for cryptocurrency applications.",
+      time: "10:00 AM - 10:30 AM",
+      title: "Day-2 Keynote",
+      // speaker: "Sophia Rodriguez",
+      // description: "Creating intuitive user experiences for cryptocurrency applications.",
       location: "Design Lab",
-      type: "workshop",
+      type: "Keynote",
     },
     {
       id: "2-3",
-      time: "11:45 AM - 1:00 PM",
-      title: "Regulatory Landscape in Asia",
-      speaker: "Panel of Experts",
-      description: "Navigate the complex regulatory environment for cryptocurrencies across Asia.",
+      time: "10:30 AM - 11:30 PM",
+      title: "Builders of Bharat",
+      // speaker: "Panel of Experts",
+      description: "Infra, Nodes, and Startups Powering India",
       location: "Main Stage",
-      type: "panel",
+      type: "Panel",
     },
     {
       id: "2-4",
-      time: "2:30 PM - 3:30 PM",
-      title: "Smart Contracts & Legal Frameworks",
-      speaker: "Alex Johnson",
-      description: "Exploring the intersection of smart contracts and traditional legal systems.",
+      time: "11:30 PM - 12:30 PM",
+      title: "Open Source Track",
+      // speaker: "Alex Johnson",
+      description: "FOSS Contributions from Indian Devs",
       location: "Hall A",
-      type: "talk",
+      type: "Panel",
     },
     {
       id: "2-5",
-      time: "4:00 PM - 5:00 PM",
-      title: "Bitcoin Core Development",
-      speaker: "Michael Chen",
-      description: "Technical deep dive into Bitcoin Core development and contribution.",
+      time: "11:30 PM - 12:30 PM",
+      title: "Self Custody Clinic",
+      // speaker: "Michael Chen",
+      description: "Practice with Hardware Wallets & Seed Phrases",
       location: "Developer Zone",
-      type: "technical",
+      type: "Deep Dive",
     },
     {
       id: "2-6",
-      time: "7:00 PM - 10:00 PM",
-      title: "Gala Dinner",
-      speaker: "",
-      description: "Formal dinner with special entertainment and guest speakers.",
+      time: "1:30 PM - 2:15 PM",
+      title: "Policy & Pushback",
+      // speaker: "",
+      description: "CBDC vs BTC: Role of the State",
       location: "Grand Ballroom",
-      type: "social",
+      type: "Panel",
     },
-  ],
-  day3: [
     {
-      id: "3-1",
-      time: "9:00 AM - 10:00 AM",
-      title: "Bitcoin & Eastern Philosophy",
-      speaker: "Dr. Raj Patel",
-      description: "Drawing parallels between Bitcoin principles and Eastern philosophical teachings.",
+      id: "2-7",
+      time: "2:15 AM - 3:00 PM",
+      title: "Youth & Btc",
+      // speaker: "Panel of Experts",
+      description: "Campus Chapters & Internships",
       location: "Main Stage",
-      type: "keynote",
+      type: "Deep Dive",
     },
     {
-      id: "3-2",
-      time: "10:30 AM - 11:30 AM",
-      title: "Startup Pitch Competition",
-      speaker: "Various Founders",
-      description: "Exciting pitches from emerging blockchain startups.",
-      location: "Innovation Hall",
-      type: "competition",
+      id: "2-8",
+      time: "3:00 PM - 4:00 PM",
+      title: "Hardware Jugaad",
+      // speaker: "Alex Johnson",
+      description: "Indian Innovations in Bitcoin Hardware",
+      location: "Hall A",
+      type: "Show & Tell",
     },
     {
-      id: "3-3",
-      time: "11:45 AM - 1:00 PM",
-      title: "Bitcoin in Emerging Economies",
-      speaker: "Panel Discussion",
-      description: "Real-world bitcoin adoption stories from developing nations.",
-      location: "Hall B",
-      type: "panel",
-    },
-    {
-      id: "3-4",
-      time: "2:00 PM - 3:30 PM",
-      title: "Technical Workshop: Building on Bitcoin",
-      speaker: "Dev Team",
-      description: "Hands-on technical workshop for developers.",
-      location: "Workshop Room C",
-      type: "workshop",
-    },
-    {
-      id: "3-5",
+      id: "2-9",
       time: "4:00 PM - 5:00 PM",
-      title: "Closing Keynote: The Path Forward",
-      speaker: "Priya Sharma",
-      description: "Visionary closing keynote on the future of bitcoin and blockchain technology.",
-      location: "Main Stage",
-      type: "keynote",
+      title: "Final Sats Sprint",
+      // speaker: "Michael Chen",
+      description: "Closing Tech Showcase",
+      location: "Developer Zone",
+      type: "Deep Dive",
     },
     {
-      id: "3-6",
-      time: "5:30 PM - 7:00 PM",
-      title: "Farewell Reception",
-      speaker: "",
-      description: "Final networking opportunity and conference closing.",
-      location: "Garden Terrace",
-      type: "social",
+      id: "2-10",
+      time: "5:00 PM - 6:00 PM",
+      title: "Closing Panel",
+      // speaker: "",
+      description: "India’s Road to Bitcoin Sovereignty",
+      location: "Grand Ballroom",
+      type: "Panel",
     },
+    {
+      id: "2-11",
+      time: "6:00 Onwards",
+      title: "Sat-sang",
+      description: "Let the party begin!",
+      type: "Party",
+    }
   ]
 };
 
@@ -182,16 +196,20 @@ const Schedule = () => {
   // Function to get event type color
   const getEventTypeColor = (type: string) => {
     switch (type) {
-      case "keynote":
+      case "Keynote":
         return "bg-bitcoin-orange";
-      case "panel":
+      case "Panel":
         return "bg-bitcoin-blue";
-      case "workshop":
+      case "Rapid Fire":
         return "bg-green-600";
-      case "talk":
+      case "Food & Drinks":
         return "bg-purple-600";
-      case "social":
+      case "Networking":
         return "bg-bitcoin-gold";
+      case "Deep Dive":
+        return "bg-yellow-600";
+      case "Expo Walkthrough":
+        return "bg-red-600";
       default:
         return "bg-gray-600";
     }
@@ -204,36 +222,29 @@ const Schedule = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Conference Schedule</h2>
           <div className="h-1 w-20 bg-bitcoin-orange mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Three days of inspiring talks, hands-on workshops, and meaningful connections.
+            Two days of inspiring talks, hands-on workshops, and meaningful connections.
           </p>
         </div>
 
         <Tabs defaultValue="day1" className="w-full">
-          <TabsList className="grid w-full grid-cols-3 mb-12">
+          <TabsList className="grid w-full grid-cols-2 mb-12">
             <TabsTrigger 
               value="day1" 
               className="text-base py-3"
               onClick={() => setActiveDay("day1")}
             >
-              Day 1 - Oct 15
+              Day 1 - Jan 8
             </TabsTrigger>
             <TabsTrigger 
               value="day2" 
               className="text-base py-3"
               onClick={() => setActiveDay("day2")}
             >
-              Day 2 - Oct 16
-            </TabsTrigger>
-            <TabsTrigger 
-              value="day3" 
-              className="text-base py-3"
-              onClick={() => setActiveDay("day3")}
-            >
-              Day 3 - Oct 17
+              Day 2 - Jan 9
             </TabsTrigger>
           </TabsList>
           
-          {["day1", "day2", "day3"].map((day) => (
+          {["day1", "day2"].map((day) => (
             <TabsContent key={day} value={day} className="mt-0">
               <div className="space-y-6">
                 {scheduleData[day as keyof typeof scheduleData].map((event) => (
