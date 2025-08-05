@@ -15,6 +15,20 @@ const Sponsors = () => {
         </div>
 
         <div className="space-y-16">
+          {/* Title Sponsor */}
+          <div>
+            <h3 className="text-center text-xl font-semibold mb-8 text-gray-900">Title Sponsor</h3>
+            <div className="flex justify-center">
+              <Card className="shadow-sm hover:shadow-md transition-shadow p-12 flex items-center justify-center h-48 max-w-md w-full">
+                <div className="text-center">
+                  <div className="w-64 h-20 bg-gray-200 mx-auto rounded-md mb-2 flex items-center justify-center">
+                    <span className="text-gray-500 font-medium">Title Sponsor</span>
+                  </div>
+                </div>
+              </Card>
+            </div>
+          </div>
+
           {/* Platinum Sponsors */}
           <div>
             <h3 className="text-center text-xl font-semibold mb-8 text-gray-900">Platinum Sponsors</h3>
