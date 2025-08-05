@@ -64,18 +64,62 @@ const Sponsors = () => {
           </div>
         </div>
 
-        <div className="mt-16 text-center">
-          <h3 className="text-xl font-semibold mb-4">Become a Sponsor</h3>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-            Join these industry leaders and showcase your brand at Namaste Bitcoin.
-            We offer various sponsorship packages to suit your marketing objectives.
-          </p>
-          <a 
-            href="#" 
-            className="inline-block bg-bitcoin-blue text-white px-6 py-3 rounded-md hover:bg-bitcoin-blue/80 transition-colors"
-          >
-            View Sponsorship Opportunities
-          </a>
+        <div className="mt-16 grid md:grid-cols-2 gap-8">
+          {/* Sponsorship Registration */}
+          <Card className="p-8">
+            <h3 className="text-2xl font-semibold mb-4 text-gray-900">Become a Sponsor</h3>
+            <p className="text-gray-600 mb-6">
+              Join industry leaders and showcase your brand at Namaste Bitcoin. Multiple sponsorship tiers available.
+            </p>
+            <div className="space-y-4 mb-6">
+              <div className="flex justify-between">
+                <span className="font-medium">Platinum Tier:</span>
+                <span className="text-gray-600">TBD</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-medium">Gold Tier:</span>
+                <span className="text-gray-600">TBD</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-medium">Silver Tier:</span>
+                <span className="text-gray-600">TBD</span>
+              </div>
+            </div>
+            <a 
+              href="mailto:sponsors@namastebitcoin.com" 
+              className="inline-block bg-bitcoin-blue text-white px-6 py-3 rounded-md hover:bg-bitcoin-blue/80 transition-colors w-full text-center"
+            >
+              Apply for Sponsorship
+            </a>
+          </Card>
+
+          {/* Stall Registration */}
+          <Card className="p-8">
+            <h3 className="text-2xl font-semibold mb-4 text-gray-900">Book Exhibition Stall</h3>
+            <p className="text-gray-600 mb-6">
+              Set up your exhibition stall to showcase products, services, and connect directly with attendees.
+            </p>
+            <div className="space-y-4 mb-6">
+              <div className="flex justify-between">
+                <span className="font-medium">Standard Stall:</span>
+                <span className="text-gray-600">TBD</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-medium">Premium Stall:</span>
+                <span className="text-gray-600">TBD</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-medium">Corner Stall:</span>
+                <span className="text-gray-600">TBD</span>
+              </div>
+            </div>
+            <a 
+              href="mailto:stalls@namastebitcoin.com" 
+              className="inline-block bg-bitcoin-orange text-white px-6 py-3 rounded-md hover:bg-bitcoin-orange/80 transition-colors w-full text-center"
+            >
+              Register for Stall
+            </a>
+          </Card>
         </div>
       </div>
     </section>

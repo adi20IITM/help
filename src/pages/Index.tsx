@@ -44,9 +44,9 @@ const Index = () => {
         <Registration />
       </div>
       
-      {/* <div className="animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
+      <div className="animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
         <Sponsors />
-      </div> */}
+      </div>
       
       <div className="animate-fade-in opacity-0" style={{ animationDelay: "0.7s", animationFillMode: "forwards" }}>
         <Venue />
